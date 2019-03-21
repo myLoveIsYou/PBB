@@ -38,7 +38,6 @@
 		54A93A8656A260977A67B4682BCBA26F /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E9DBFF51E5CD1B2C2EB30BDFCAC42611 /* AFHTTPRequestOperation.m */; };
 		59B5809E8E97F19BCDF9B18278740A6B /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB5475E4C328AF1DB55A4B5E54CC082 /* UIActivityIndicatorView+AFNetworking.m */; };
 		5BC12F69E33ABA27B9E0B78128CE336D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61EC6C8E09A6836FBE4408FDCB98BF7A /* QuartzCore.framework */; };
-		5C210E6F2B444C2C7153674CA295DB62 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E1018057EFBF19ED84098E1C768607E /* ReplaceMe.m */; };
 		5F4ADB57CEB7A57AC58F1E6AAD42A72A /* UIAlertView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 977C8B7D87C97325B819599043F182FD /* UIAlertView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		69DA8B003216466C60F029CBD79897F1 /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = CED960415D0B56AB3539CFA1326EA9C9 /* UIImage+Compare.m */; };
 		6F9313FED3763C57F6EC60B6175CDD25 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 68F1B255349E4535D87A05180517B26A /* UIWebView+AFNetworking.m */; };
@@ -152,7 +151,6 @@
 		55A80438A26AC751DABA18F68C201A7F /* Pods-PBB_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PBB_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		57BBC904C65D9B6320FAF05FBFD9C1D0 /* Pods-PBB_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PBB_Example-frameworks.sh"; sourceTree = "<group>"; };
 		58451BE0A5D5895AC8793924D078331A /* PBB-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PBB-umbrella.h"; sourceTree = "<group>"; };
-		5E1018057EFBF19ED84098E1C768607E /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = PBB/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		6066987C294D0797151325E407E2F78F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		60AF7482E5A7D0ABF200C522A8EBA893 /* Pods-PBB_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PBB_Tests-resources.sh"; sourceTree = "<group>"; };
 		61EC6C8E09A6836FBE4408FDCB98BF7A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
@@ -303,7 +301,6 @@
 		0AE207F347CE4EDDBE6AD7DE02D6FD56 /* PBB */ = {
 			isa = PBXGroup;
 			children = (
-				5E1018057EFBF19ED84098E1C768607E /* ReplaceMe.m */,
 				CDC96B2D224389F00073C830 /* UIButton+eat.h */,
 				CDC96B2E224389F00073C830 /* UIButton+eat.m */,
 				38153D03356D32C3FAD0817A28B8A76F /* Pod */,
@@ -806,7 +803,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE22B0859BF4A5C302BE86B1D7815C97 /* PBB-dummy.m in Sources */,
-				5C210E6F2B444C2C7153674CA295DB62 /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
