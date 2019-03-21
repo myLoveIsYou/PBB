@@ -71,6 +71,7 @@
 		CAFA5E486BCE117A7D8C0FBF9DA6666B /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 4521506BD33AA92DAA5BD6480571E4EE /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		CDC96B2F224389F00073C830 /* UIButton+eat.h in Headers */ = {isa = PBXBuildFile; fileRef = CDC96B2D224389F00073C830 /* UIButton+eat.h */; };
 		CDC96B30224389F00073C830 /* UIButton+eat.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC96B2E224389F00073C830 /* UIButton+eat.m */; };
+		CDC96B3222438F7F0073C830 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC96B3122438F7F0073C830 /* ReplaceMe.m */; };
 		CF0E8D70D0E6ECB756F7029AE0842E17 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FDB6F64416EA82C61F0924D08B293B4B /* AFNetworkActivityIndicatorManager.m */; };
 		D4B52D9B9D8F1AC0CBC52D4399E4F1BF /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B59F007904077CF5C55C5BF0316F2C9B /* SystemConfiguration.framework */; };
 		D65865C21F7F118FD65704B9D62D94BE /* UIRefreshControl+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = ED6BC403E965FFECED7F5B922EC3EF79 /* UIRefreshControl+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -213,6 +214,7 @@
 		C6AEC5805D1F97E5C4042E61AF54427E /* Pods-PBB_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PBB_Tests-umbrella.h"; sourceTree = "<group>"; };
 		CDC96B2D224389F00073C830 /* UIButton+eat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+eat.h"; sourceTree = "<group>"; };
 		CDC96B2E224389F00073C830 /* UIButton+eat.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+eat.m"; sourceTree = "<group>"; };
+		CDC96B3122438F7F0073C830 /* ReplaceMe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		CED960415D0B56AB3539CFA1326EA9C9 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
 		D0B416FE0C7FFC487142357B9FB6F4BE /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPRequestOperationManager.m; path = AFNetworking/AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
 		D2220F61CFF6F4A638417240AEBE3E8A /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
@@ -301,6 +303,7 @@
 		0AE207F347CE4EDDBE6AD7DE02D6FD56 /* PBB */ = {
 			isa = PBXGroup;
 			children = (
+				CDC96B3122438F7F0073C830 /* ReplaceMe.m */,
 				CDC96B2D224389F00073C830 /* UIButton+eat.h */,
 				CDC96B2E224389F00073C830 /* UIButton+eat.m */,
 				38153D03356D32C3FAD0817A28B8A76F /* Pod */,
@@ -830,6 +833,7 @@
 				964BFEA9E3E84571F866D24102FEA675 /* AFURLRequestSerialization.m in Sources */,
 				2ED997B259CF87164EB742D3C6E3C670 /* AFURLResponseSerialization.m in Sources */,
 				8634FF44ABEFF40B5D561593B24C9B1E /* AFURLSessionManager.m in Sources */,
+				CDC96B3222438F7F0073C830 /* ReplaceMe.m in Sources */,
 				59B5809E8E97F19BCDF9B18278740A6B /* UIActivityIndicatorView+AFNetworking.m in Sources */,
 				23F62266558CF7EA25B7AE2C7E75E67F /* UIAlertView+AFNetworking.m in Sources */,
 				7A6F8593BBD598773DCC198202C35A7F /* UIButton+AFNetworking.m in Sources */,
